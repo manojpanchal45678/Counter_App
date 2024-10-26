@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #141d28;
+}
+
+.counter-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.counter-controls {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+
+.count {
+    font-size: 3rem;
+    color: #333;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    color: #ffffff;
+    background-color: #1e90ff; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button:hover {
+    background-color: #0d2237;
+}
+
+.button:active {
+    background-color: #1874cd;
+}
+
+.button i {
+    margin: 0;
+}
+
+
+.button1 {
+    margin-top: 20px; 
+    padding: 7px 10px; 
+    font-size: 0.8rem;
+    color: #ffffff;
+    background-color: #1e90ff; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center; 
+    display: inline-block; 
+    box-sizing: border-box;
+    transition: background-color 0.3s ease;
+}
+
+.button1:hover {
+    background-color: #0d2237; 
+}
+
+.button1:active {
+    background-color: #1874cd; 
+}
+
+
+.button1:focus {
+    outline: none;
+}
